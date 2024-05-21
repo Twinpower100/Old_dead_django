@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ed980daa-9497-4788-ac5d-d304fa133e28" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/.idea/Learning_Django_Old_Dead.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_dead_project/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_dead_project/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_dead_project/old_dead_app1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_dead_project/old_dead_app1/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_dead_project/old_dead_app1/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_dead_project/old_dead_app1/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_dead_project/old_dead_app1/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_dead_project/old_dead_app1/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_dead_project/old_dead_app1/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_dead_project/old_dead_app2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_dead_project/old_dead_app2/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_dead_project/old_dead_app2/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_dead_project/old_dead_app2/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_dead_project/old_dead_app2/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_dead_project/old_dead_app2/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_dead_project/old_dead_app2/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_dead_project/old_dead_project/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_dead_project/old_dead_project/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_dead_project/old_dead_project/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_dead_project/old_dead_project/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_dead_project/old_dead_project/wsgi.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2gm033cWohdxiqEETYXsTG8nR3U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Notification.DisplayName-DoNotAsk-WindowsDefender": "Microsoft Defender configuration",
+    "Notification.DoNotAsk-WindowsDefender": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "proofread"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Learning_Django_Old_Dead" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed980daa-9497-4788-ac5d-d304fa133e28" name="Changes" comment="" />
+      <created>1716287242372</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716287242372</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
