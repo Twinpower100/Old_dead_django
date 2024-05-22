@@ -1,0 +1,63 @@
+Subject: [PATCH] Frontend
+---
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 4fb9d118d34c42652a274c5b6c537f7f7b04df68)
++++ b/.idea/workspace.xml	(date 1716921243289)
+@@ -4,11 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="ed980daa-9497-4788-ac5d-d304fa133e28" name="Changes" comment="Creating, changing, getting, updating, deleting models data">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/old_dead_project/old_dead_app1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/old_dead_project/old_dead_app1/views.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/old_dead_project/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/old_dead_project/templates/about.html" afterDir="false" />
+-    </list>
++    <list default="true" id="ed980daa-9497-4788-ac5d-d304fa133e28" name="Changes" comment="Frontend" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -23,6 +19,12 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="PUSH_TAGS">
++      <GitPushTagMode>
++        <option name="argument" value="--tags" />
++        <option name="title" value="All" />
++      </GitPushTagMode>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="GitHubPullRequestSearchHistory">{
+@@ -142,7 +144,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1716901878632</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="Frontend">
++      <option name="closed" value="true" />
++      <created>1716921169346</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1716921169346</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -162,7 +172,8 @@
+     <MESSAGE value="first commit" />
+     <MESSAGE value="Filtered models" />
+     <MESSAGE value="Creating, changing, getting, updating, deleting models data" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Creating, changing, getting, updating, deleting models data" />
++    <MESSAGE value="Frontend" />
++    <option name="LAST_COMMIT_MESSAGE" value="Frontend" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>

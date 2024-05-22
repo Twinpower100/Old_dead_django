@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed980daa-9497-4788-ac5d-d304fa133e28" name="Changes" comment="Frontend" />
+    <list default="true" id="ed980daa-9497-4788-ac5d-d304fa133e28" name="Changes" comment="Filtered models" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,13 +19,8 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--tags" />
-        <option name="title" value="All" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -39,9 +34,6 @@
     &quot;accountId&quot;: &quot;c0ce6cf8-563a-486f-bc7c-24fd812a663b&quot;
   }
 }</component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -120,60 +112,47 @@
       <option name="project" value="LOCAL" />
       <updated>1716296236605</updated>
     </task>
-    <task id="LOCAL-00002" summary="Creating, changing, getting, updating, deleting models data">
+    <task id="LOCAL-00002" summary="Filtered models">
       <option name="closed" value="true" />
-      <created>1716901668716</created>
+      <created>1716843085219</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1716901668716</updated>
+      <updated>1716843085219</updated>
     </task>
-    <task id="LOCAL-00003" summary="Creating, changing, getting, updating, deleting models data">
+    <task id="LOCAL-00003" summary="Filtered models">
       <option name="closed" value="true" />
-      <created>1716901814064</created>
+      <created>1716843122186</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1716901814064</updated>
+      <updated>1716843122186</updated>
     </task>
-    <task id="LOCAL-00004" summary="Creating, changing, getting, updating, deleting models data">
+    <task id="LOCAL-00004" summary="Filtered models">
       <option name="closed" value="true" />
-      <created>1716901878632</created>
+      <created>1716843345964</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1716901878632</updated>
+      <updated>1716843345964</updated>
     </task>
-    <task id="LOCAL-00005" summary="Frontend">
+    <task id="LOCAL-00005" summary="Filtered models">
       <option name="closed" value="true" />
-      <created>1716921169346</created>
+      <created>1716843362110</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1716921169346</updated>
+      <updated>1716843362110</updated>
     </task>
     <option name="localTasksCounter" value="6" />
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="version 1.1. Models are created:&#10;python manage.py makemigrations appname&#10;python manage.py migrate" />
     <MESSAGE value="first commit" />
+    <MESSAGE value="version 1.1. Models are created:&#10;python manage.py makemigrations appname&#10;python manage.py migrate" />
     <MESSAGE value="Filtered models" />
-    <MESSAGE value="Creating, changing, getting, updating, deleting models data" />
-    <MESSAGE value="Frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="Frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Filtered models" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

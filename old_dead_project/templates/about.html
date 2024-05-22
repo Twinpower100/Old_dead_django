@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+</head>
+<body>
+    <h1>About us</h1>
+    {{ departments }}
+    <br> <! -- перенос строки -->
+    {{ workers }}
+    <br>
+    <a>{{ names }}</a>
+    <h3>surname name dept salary</h3>
+    {% for i in workers %}
+
+    <h3>Worker {{ forloop.counter }} <! -- счетчик цикла --> {{ i }}</h3>
+    {{ i }}
+    <br>
+    {% endfor %}
+    <br>
+    {{ worker }}
+</body>
+</html>
