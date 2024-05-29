@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from old_dead_app1.models import Worker, Department
+from old_dead_app1.models import Worker, Department, Country
 
 
 def index_page(request):
@@ -46,7 +46,7 @@ def structure(request):
 
     """Получаем данные по фильтру"""
     # print(Department.objects.filter(name='Sales'))  # Filtering by Dept_name
-    return render(request, template_name='structure.html')
+    return render(request, template_name='structure.html', context={'all_departments': all_departments})
 
 
 def about_page(request):
@@ -65,3 +65,8 @@ def about_page(request):
                       'names': names_surnames,
                       'worker': only_worker
                   })
+
+
+def countries_page(request):
+    all_countries = Country.objects.all()
+    return render(request, 'geo.html', context={'countries': all_countries})

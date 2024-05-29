@@ -24,5 +24,6 @@ urlpatterns = [
     path('', index_page),
     path('about', about_page),
     path('structure', structure),
+    path('countries', countries_page),
 
 ]
