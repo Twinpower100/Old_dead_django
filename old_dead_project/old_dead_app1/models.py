@@ -26,3 +26,12 @@ class Worker(models.Model):
     def __str__(self):
         """Выводим и имя, и фамилию"""
         return f'{self.surname} {self.name} {self.department} {self.salary}'
+
+
+class Country(models.Model):
+    objects = None
+    name = models.CharField(max_length=100, blank=False)
+    flag = models.ImageField(width_field=50, height_field=50)
+
+    def __str__(self):
+        return f'{self.name} {self.flag}'
