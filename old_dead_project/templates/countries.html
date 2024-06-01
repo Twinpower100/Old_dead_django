@@ -3,16 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>Countries</title>
-    <! -- выводится в названии закладки браузера -->
+    <style>
+        .country {
+            display: flex;
+            align-items: center;
+            margin-bottom: -400px; /* Уменьшите это значение, чтобы уменьшить отступы между странами */
+        }
+
+        .country img {
+            margin-left: 10px;
+            scale: 10%;
+            /* Другие стили для изображения флага */
+        }
+
+        .country span {
+            font-size: 18px;
+            /* Другие стили для названия страны */
+        }
+    </style>
 </head>
 <body>
     <h1>Countries</h1>
-    {{ Country }}
-    {% if country.flag %}
-    <img src="{{ country.flag.url }}" alt="Country Image">
-{% else %}
-<p>No flag available.</p>
-{% endif %}
 
+    {% for country in countries %}
+        <div class="country">
+            <span>{{ country.name }}</span>
+            <img src="{{ country.flag.url }}" alt="Country Flag">
+        </div>
+    {% endfor %}
 </body>
 </html>
