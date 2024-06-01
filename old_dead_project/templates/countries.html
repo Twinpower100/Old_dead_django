@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Countries</title>
+    <! -- выводится в названии закладки браузера -->
+</head>
+<body>
+    <h1>Countries</h1>
+    {{ Country }}
+    {% if country.flag %}
+    <img src="{{ country.flag.url }}" alt="Country Image">
+{% else %}
+<p>No flag available.</p>
+{% endif %}
+
+</body>
+</html>

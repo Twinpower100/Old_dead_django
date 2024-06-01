@@ -1,5 +1,5 @@
-from django.shortcuts import render
-
+from django.shortcuts import render, redirect
+from .forms import CountryForm
 from old_dead_app1.models import Worker, Department, Country
 
 
@@ -67,6 +67,17 @@ def about_page(request):
                   })
 
 
+def upload_flag(request):
+    if request.method == 'POST':
+        form = CountryForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            return redirect('countries')
+    else:
+        form = CountryForm()
+    return render(request, 'upload_flag.html', {'form': form})
+
+
 def countries_page(request):
     all_countries = Country.objects.all()
-    return render(request, 'geo.html', context={'countries': all_countries})
+    return render(request, 'countries.html', context={'countries': all_countries})

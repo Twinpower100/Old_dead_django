@@ -31,9 +31,10 @@ class Worker(models.Model):
 class Country(models.Model):
     objects = None
     name = models.CharField(max_length=100, blank=False)
+    flag = models.ImageField(upload_to='flags/', blank=False)
     
     class Meta:
         verbose_name_plural = "Countries"
 
     def __str__(self):
-        return f'{self.name}'
+        return f'{self.name}, ({self.flag})'

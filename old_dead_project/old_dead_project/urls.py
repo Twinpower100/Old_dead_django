@@ -15,7 +15,10 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
+from django.conf import settings
+from django.conf.urls.static import static
 from django.urls import path
+from old_dead_app1 import views
 
 from old_dead_app1.views import *
 
@@ -24,6 +27,10 @@ urlpatterns = [
     path('', index_page),
     path('about', about_page),
     path('structure', structure),
+    path('upload_flag', views.upload_flag, name='upload_flag'),
     path('countries', countries_page),
 
 ]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
