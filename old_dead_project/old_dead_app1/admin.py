@@ -6,6 +6,3 @@ from old_dead_app1.models import Worker, Department, Country
 admin.site.register(Worker)
 admin.site.register(Department)
 admin.site.register(Country)
-
-
-

@@ -56,7 +56,7 @@ ROOT_URLCONF = 'old_dead_project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates'],
+        'DIRS': ['templates', 'media'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
