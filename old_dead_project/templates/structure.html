@@ -6,7 +6,9 @@
 </head>
 <body>
     <h1>Company structure</h1>
-    <% for department in all_departments %>
+    {{ departments }}
+    <br>
+    <% for department in departments %>
         {{ department }}
         <br>
     <% endfor %>

@@ -8,7 +8,7 @@ class Department(models.Model):
 
     def __str__(self):
         """Выводим название"""
-        return self.name
+        return f'{self.name}'
 
 
 class Worker(models.Model):

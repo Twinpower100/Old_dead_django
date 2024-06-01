@@ -41,12 +41,12 @@ def index_page(request):
 
 def structure(request):
     """Получаем ВСЕ данные из модели"""
-    all_departments = Department.objects.all()
-    # print(all_departments)  # Non - filtering
+    departments = Department.objects.all()
+    # print(departments)  # Non - filtering
 
     """Получаем данные по фильтру"""
     # print(Department.objects.filter(name='Sales'))  # Filtering by Dept_name
-    return render(request, template_name='structure.html', context={'all_departments': all_departments})
+    return render(request, template_name='structure.html', context={'departments': departments})
 
 
 def about_page(request):
