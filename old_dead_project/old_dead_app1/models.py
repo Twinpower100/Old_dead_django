@@ -37,5 +37,6 @@ class Country(models.Model):
         verbose_name_plural = "Countries"
 
     def __str__(self):
-        return f'{self.name}'
+        return f'{self.name} ({self.flag.url})'
+       
     
