@@ -1,35 +1,127 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Countries</title>-->
+<!--    <style>-->
+<!--        .country-list {-->
+<!--            width: 50%;-->
+<!--            margin: 0 auto;-->
+<!--        }-->
+
+<!--        .country-list h1 {-->
+<!--            text-align: center;-->
+<!--            margin-bottom: 20px;-->
+<!--        }-->
+
+<!--        .country-header {-->
+<!--            display: flex;-->
+<!--            justify-content: space-between;-->
+<!--            border-bottom: 1px solid #ccc;-->
+<!--            padding-bottom: 10px;-->
+<!--            margin-bottom: 10px;-->
+<!--        }-->
+
+<!--        .country {-->
+<!--            display: flex;-->
+<!--            justify-content: space-between;-->
+<!--            align-items: center;-->
+<!--            margin-bottom: 10px;-->
+<!--            border-bottom: 1px solid #eaeaea;-->
+<!--            padding: 10px 0;-->
+<!--        }-->
+
+<!--        .country img {-->
+<!--            width: 50px;-->
+<!--            height: 30px;-->
+<!--        }-->
+
+<!--        .country-name {-->
+<!--            font-size: 18px;-->
+<!--        }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <div class="country-list">-->
+<!--        <h1>Countries</h1>-->
+<!--        <div class="country-header">-->
+<!--            <span class="country-name">Country</span>-->
+<!--            <span class="country-flag">Flag</span>-->
+<!--        </div>-->
+<!--        {% for country in countries %}-->
+<!--            <div class="country">-->
+<!--                <span class="country-name">{{ country.name }}</span>-->
+<!--                <img src="{{ country.flag.url }}" alt="{{ country.name }} Flag">-->
+<!--            </div>-->
+<!--        {% endfor %}-->
+<!--    </div>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--Объяснение изменений-->
+<!--Контейнер для списка стран (.country-list): Центрирует содержимое и задает ширину.-->
+<!--Заголовки колонок (.country-header): Создает заголовки для столбцов с выравниванием по горизонтали и добавляет нижнюю границу для визуального разделения.-->
+<!--Элементы стран (.country): Использует Flexbox для выравнивания названий стран и флагов по горизонтали, добавляет нижнюю границу и отступы между элементами.-->
+<!--Изображения флагов (.country img): Задает фиксированные размеры для изображений флагов.-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Countries</title>
     <style>
-        .country {
-            display: flex;
+        .country-list {
+            width: 50%;
+            margin: 0 auto;
+            margin-top: 30px; /* Отступ сверху для всего списка */
+        }
+
+        .country-list h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .country-header, .country {
+            display: grid;
+            grid-template-columns: 0.1fr auto;
+            gap: -200px; /* Уменьшите значение, чтобы уменьшить расстояние между колонками */
             align-items: center;
-            margin-bottom: -400px; /* Уменьшите это значение, чтобы уменьшить отступы между странами */
+        }
+
+        .country {
+            margin-bottom: 10px;
+            border-bottom: 1px solid #eaeaea;
+            padding: 10px 0;
         }
 
         .country img {
-            margin-left: 10px;
-            scale: 10%;
-            /* Другие стили для изображения флага */
+            width: 50px;
+            height: 30px;
         }
 
-        .country span {
+        .country-name {
             font-size: 18px;
-            /* Другие стили для названия страны */
         }
     </style>
 </head>
 <body>
-    <h1>Countries</h1>
-
-    {% for country in countries %}
-        <div class="country">
-            <span>{{ country.name }}</span>
-            <img src="{{ country.flag.url }}" alt="Country Flag">
+    <div class="country-list">
+        <h1>Countries</h1>
+        <div class="country-header">
+            <span class="country-name">Country</span>
+            <span class="country-flag">Flag</span>
         </div>
-    {% endfor %}
+        {% for country in countries %}
+            <div class="country">
+                <span class="country-name">{{ country.name }}</span>
+                <img src="{{ country.flag.url }}" alt="{{ country.name }} Flag">
+            </div>
+        {% endfor %}
+    </div>
 </body>
 </html>
+<!--Объяснение изменений-->
+<!--Отступ сверху для списка стран (margin-top): Это добавляет отступ между заголовком и таблицей.-->
+<!--Использование grid-template-columns: Сетка с двумя колонками - первая растягивается (1fr), вторая автошириной (auto).-->
+<!--Уменьшение расстояния между колонками (gap): Контролирует пространство между колонками.-->
+<!--Добавление отступа снизу для заголовка (margin-bottom): Отделяет заголовок от таблицы.-->
