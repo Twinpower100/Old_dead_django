@@ -21,7 +21,12 @@ class CountryAdmin(admin.ModelAdmin):
     flag_thumbnail.short_description = 'Flag'
 
 
+class WorkerAdmin(admin.ModelAdmin):
+    """Выводим заголовки колонок в админке"""
+    list_display = ('surname', 'name', 'department', 'salary')
+
+
 # Register your models here.
-admin.site.register(Worker)
+admin.site.register(Worker, WorkerAdmin)
 admin.site.register(Department)
 admin.site.register(Country, CountryAdmin)
