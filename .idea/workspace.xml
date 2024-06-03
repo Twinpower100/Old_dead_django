@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed980daa-9497-4788-ac5d-d304fa133e28" name="Changes" comment="Frontend">
+      <change afterPath="$PROJECT_DIR$/old_dead_project/old_dead_app1/migrations/0002_currency_sciencedegree_teachingdegree_teacher.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old_dead_project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/old_dead_project/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old_dead_project/old_dead_app1/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/old_dead_project/old_dead_app1/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old_dead_project/old_dead_app1/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/old_dead_project/old_dead_app1/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +71,7 @@
     "git-widget-placeholder": "master__master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Mail.ru/CodeIt/Django/new_old_dead",
-    "settings.editor.selected.configurable": "preferences.updates"
+    "settings.editor.selected.configurable": "settings.codegpt.services.openai"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": []
@@ -101,7 +105,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+        <option value="bundled-python-sdk-48aec45f0201-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17011.127" />
       </set>
     </attachedChunks>
   </component>

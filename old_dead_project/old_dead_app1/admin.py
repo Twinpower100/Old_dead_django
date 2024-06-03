@@ -1,4 +1,4 @@
-from old_dead_app1.models import Worker, Department, Country
+from old_dead_app1.models import Worker, Department, Country, Currency, ScienceDegree, TeachingDegree, Teacher
 from django.contrib import admin
 from django.utils.html import format_html
 
@@ -30,3 +30,7 @@ class WorkerAdmin(admin.ModelAdmin):
 admin.site.register(Worker, WorkerAdmin)
 admin.site.register(Department)
 admin.site.register(Country, CountryAdmin)
+admin.site.register(Currency)
+admin.site.register(ScienceDegree)
+admin.site.register(TeachingDegree)
+admin.site.register(Teacher)
