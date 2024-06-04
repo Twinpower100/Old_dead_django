@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed980daa-9497-4788-ac5d-d304fa133e28" name="Changes" comment="Frontend">
-      <change afterPath="$PROJECT_DIR$/old_dead_project/old_dead_app1/migrations/0002_currency_sciencedegree_teachingdegree_teacher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_dead_project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/old_dead_project/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_dead_project/old_dead_app1/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/old_dead_project/old_dead_app1/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_dead_project/old_dead_app1/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/old_dead_project/old_dead_app1/models.py" afterDir="false" />
-    </list>
+    <list default="true" id="ed980daa-9497-4788-ac5d-d304fa133e28" name="Changes" comment="updated models.py" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716921169346</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updated models.py">
+      <option name="closed" value="true" />
+      <created>1717531481349</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717531481349</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,7 +181,9 @@
     <MESSAGE value="Filtered models" />
     <MESSAGE value="Creating, changing, getting, updating, deleting models data" />
     <MESSAGE value="Frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="Frontend" />
+    <MESSAGE value="Update grid settings in countries.html&#10;&#10;The grid-template-columns property has been updated to a ratio of 0.2fr: auto. Also, the gap between grid columns has been reduced by -150px to optimize the layout and improve the display of country details." />
+    <MESSAGE value="updated models.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated models.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

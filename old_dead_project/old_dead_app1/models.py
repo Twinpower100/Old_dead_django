@@ -43,7 +43,7 @@ class Country(models.Model):
 class Currency(models.Model):
     name = models.CharField(max_length=50, blank=False)
     image = models.ImageField(upload_to='currencies', blank=False)
-    abbreviation = models.CharField(max_length=3, blank=False)
+    abbreviation = models.CharField(max_length=3, blank=False, unique=True)
 
     class Meta:
         verbose_name_plural = 'Currencies'
@@ -79,7 +79,7 @@ class Teacher(models.Model):
     teaching_degree = models.ForeignKey('TeachingDegree', blank=False, on_delete=models.CASCADE)
     external_teacher = models.BooleanField(default=False)
     salary = models.IntegerField(blank=False, null=False, serialize=True)
-    currency = models.ForeignKey('Currency', blank=False, on_delete=models.PROTECT)
+    currency_abbreviation = models.ForeignKey('Currency', to_field='abbreviation', blank=False, on_delete=models.PROTECT)
     capacity = models.IntegerField(verbose_name='Capacity in hours per week')
 
     def __str__(self):
