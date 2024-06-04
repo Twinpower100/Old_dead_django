@@ -83,5 +83,8 @@ class Teacher(models.Model):
     capacity = models.IntegerField(verbose_name='Capacity in hours per week')
 
     def __str__(self):
-        return (f'{self.name} {self.surname} {self.citizenship} {self.science_degree} '
-                f'{self.teaching_degree} {self.external_teacher} {self.salary} {self.currency} {self.capacity}')
+        return (
+                f'{self.name} {self.surname} {self.citizenship} {self.science_degree}'
+                f'{self.teaching_degree} {self.external_teacher} {self.salary}'
+                f' {self.currency_abbreviation} {self.capacity}'
+                )   
