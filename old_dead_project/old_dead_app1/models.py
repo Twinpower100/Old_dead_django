@@ -74,6 +74,7 @@ class Teacher(models.Model):
     # Определение полей модели
     name = models.CharField(max_length=40, blank=False)
     surname = models.CharField(max_length=100, blank=False)
+    subjects = models.ManyToManyField('Subject', related_name='teachers')
     citizenship = models.ForeignKey(Country, on_delete=models.CASCADE)
     science_degree = models.ForeignKey('ScienceDegree', blank=False, on_delete=models.CASCADE)
     teaching_degree = models.ForeignKey('TeachingDegree', blank=False, on_delete=models.CASCADE)
@@ -95,6 +96,7 @@ class Student(models.Model):
     objects = None
     name = models.CharField(max_length=40, blank=False)
     surname = models.CharField(max_length=100, blank=False)
+    subjects = models.ManyToManyField('Subject', related_name='students')
     citizenship = models.ForeignKey(Country, on_delete=models.CASCADE)
     group = models.ForeignKey('Group', to_field='speciality', blank=False, on_delete=models.CASCADE)
 
@@ -109,21 +111,23 @@ class Group(models.Model):
     head = models.ForeignKey('Student', on_delete=models.CASCADE)
 
     def __str__(self):
-        return f'{self.number} {self.speciality} {self.head}'
+        return f'{self.number} {self.speciality} {self.head} {Subject.name}'
 
 
-class Subgect(models.Model):
+class Subject(models.Model):
     objects = None
     name = models.CharField(max_length=150, blank=False)
+    teachers = models.ManyToManyField('Teacher', related_name='subjects')
+    groups = models.ManyToManyField('Group', related_name='subjects')
 
     def __str__(self):
-        return f'{self.name}'
+        return f'{self.name} {self.teachers} {self.groups}'
 
 
 class HoursNumber(models.Model):
     objects = None
     group = models.ForeignKey('Group', to_field='number', blank=False, on_delete=models.CASCADE)
-    subject = models.ForeignKey('Subgect', to_field='name', blank=False, on_delete=models.CASCADE)
+    subject = models.ForeignKey('Subject', to_field='name', blank=False, on_delete=models.CASCADE)
     number_of_hours = models.IntegerField(blank=False)
 
     def __str__(self):
